@@ -1,0 +1,1 @@
+@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n* {\n  margin: 0;\n  padding: 0;\n  box-sizing: border-box;\n}\n\nbody {\n  background-color: #f8f9ff;\n  color: #0b1c30;\n  font-family: 'Inter', sans-serif;\n}\n\nhtml {\n  scroll-behavior: smooth;\n}
