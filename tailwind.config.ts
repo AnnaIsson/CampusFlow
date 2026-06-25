@@ -1,0 +1,1 @@
+import type { Config } from 'tailwindcss'\n\nconst config: Config = {\n  content: ['./pages/**/*.{js,ts,jsx,tsx}'],\n  theme: {\n    extend: {\n      colors: {\n        'primary': '#00288e',\n        'secondary': '#006c49',\n        'surface': '#f8f9ff',\n        'on-surface': '#0b1c30',\n      }\n    }\n  },\n  plugins: [require('@tailwindcss/forms')]\n}\n\nexport default config
